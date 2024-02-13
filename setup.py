@@ -18,10 +18,10 @@ setup(
     long_description_content_type="text/markdown",
     license="Copyright Adobe Inc.",
     install_requires=[
-        "torch==1.9.0",
-        "torchaudio==0.9.0",
+        "torch==1.11.0",
+        "torchaudio",
         "torchmetrics>=0.4.1",
-        "torchvision==0.10.0",
+        "torchvision",
         "audioread>=2.1.9",
         "auraloss>=0.2.1",
         "librosa>=0.8.1",
@@ -40,6 +40,6 @@ setup(
         "wget",
         "pesq",
         "umap-learn",
-        "setuptools==58.2.0"
+        "setuptools==58.2.0",
     ],
 )
